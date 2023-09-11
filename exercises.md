@@ -9,6 +9,12 @@
 ## Cloud server
 
 ```
+# extract key files
+tar -xvf bc2-users.tar.gz
+```
+<br>
+
+```
 # login
 ssh -i private_keys/key_yourusername.pem yourusername@3.127.182.45
 # download data
