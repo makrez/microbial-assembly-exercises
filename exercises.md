@@ -57,6 +57,20 @@ If you only want to run a command without entering the container, try this:
 
 <br>
 
+### Copy data to your local computer
+
+Since we cannot view image files or html reports, we need to synchronise the results back to your local computer.
+
+```
+# create a directory 'results'
+mkdir results;
+
+# use your private key to copy the results
+scp -r -i test_bc2/private_keys/key_<user>.pem   <user>@3.127.182.45:/home/<user>/<sample> results/.
+
+```
+
+
 ## Exersicse instructions
 
 ### Overview
