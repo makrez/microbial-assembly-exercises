@@ -14,11 +14,11 @@ tar -xvf bc2-users.tar.gz
 ```
 <br>
 
+Login to your cloud instance with your private key:
+
 ```
-# login
+chmod 400 private_keys/key_yourusername.pem ;
 ssh -i private_keys/key_yourusername.pem yourusername@3.127.182.45
-# download data
-# upload data
 ```
 
 Basic information about containers
